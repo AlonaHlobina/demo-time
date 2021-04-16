@@ -8,7 +8,7 @@ const app = express()
 
 function generateForm(){
     return `<html><body>
-        What age are you?
+        Сколько тебе лет?
         <form action="/" method="get">
             <input type="text" name="age" value="">
             <input type="submit" value="Submit">
@@ -17,7 +17,7 @@ function generateForm(){
 }
 
 function generateConfirmation(age){
-    return "TODO!"
+    return "ТАААА ДАААМ!"
 }
 
 // Respond to GET requests: send form or confirmation
